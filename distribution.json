@@ -1409,6 +1409,17 @@
           }
         },
         {
+          "id": "CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+          "name": "CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+          "type": "File",
+          "artifact": {
+            "size": 88557,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/1.12.2/CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+            "MD5": "eb23a10c2d246cf65affeb59116c881e",
+            "path": "mods/1.12.2/CraftStudio-1.0.0.93-mc1.12-alpha.jar"
+          }
+        },
+        {
           "id": "AutoRegLib-1.3-32.jar",
           "name": "AutoRegLib-1.3-32.jar",
           "type": "File",
@@ -1450,17 +1461,6 @@
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
             "MD5": "3b5e44db5ac96fb23a439590b6731a31",
             "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
-          }
-        },
-        {
-          "id": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
-          "name": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
-          "type": "File",
-          "artifact": {
-            "size": 90465,
-            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
-            "MD5": "e6dcc9b9784d52aa67f6e706eccb2cb2",
-            "path": "mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar"
           }
         },
         {
