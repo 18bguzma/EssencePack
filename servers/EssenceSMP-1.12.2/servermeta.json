@@ -1,0 +1,19 @@
+{
+  "$schema": "file:///C:/Users/guzma/OneDrive/Documents/Tough/dd/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "EssenceSMP (Minecraft 1.12.2)",
+    "description": "EssenceSMP Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
+    "address": "51.222.5.146:25565",
+    "discord": {
+      "largeImageText": "EssenceSMP",
+      "largeImageKey": "sealcircle"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2855"
+  },
+  "untrackedFiles": []
+}

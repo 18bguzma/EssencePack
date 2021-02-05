@@ -1,0 +1,867 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "EssenceSMP-1.12.2",
+      "name": "EssenceSMP (Minecraft 1.12.2)",
+      "description": "EssenceSMP Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "51.222.5.146:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "largeImageText": "EssenceSMP",
+        "largeImageKey": "sealcircle"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "http://studzy.net/mc/launcher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "http://studzy.net/mc/launcher/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "http://studzy.net/mc/launcher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "http://studzy.net/mc/launcher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "http://studzy.net/mc/launcher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "http://studzy.net/mc/launcher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "http://studzy.net/mc/launcher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "http://studzy.net/mc/launcher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "http://studzy.net/mc/launcher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "http://studzy.net/mc/launcher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:1.0.14@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33683,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/AppleSkin-mc1.12-1.0.14.jar",
+            "MD5": "b435860d5cfa23bc53d3b8e120be91d4"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4696621,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+            "MD5": "61fcc4ffff205ca261e61d6772debc4d"
+          }
+        },
+        {
+          "id": "epicsquid.blockcraftery:blockcraftery:1.2.0@jar",
+          "name": "Blockcraftery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105052,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/blockcraftery-1.12.2-1.3.1.jar",
+            "MD5": "03b28232d2a5f6c8d5e202c0f9fbb0b3"
+          }
+        },
+        {
+          "id": "buildcraft.compat:buildcraftlib:7.99.24.7@jar",
+          "name": "BuildCraft Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4814664,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/buildcraft-all-7.99.24.7.jar",
+            "MD5": "43a54b9d7bb1ecf2819ba19718fb7abd"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:6.5.0@jar",
+          "name": "Cooking for Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 595301,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/CookingForBlockheads_1.12.2-6.5.0.jar",
+            "MD5": "f1067937f350aba63a80089093b66724"
+          }
+        },
+        {
+          "id": "com.mjr:extraplanets:1.12.2-0.7.1@jar",
+          "name": "Extra Planets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8660885,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ExtraPlanets-1.12.2-0.7.1.jar",
+            "MD5": "5f3973a024f8e53b8b60169c2a3ecfe4"
+          }
+        },
+        {
+          "id": "com.rwtema:extrautils2:1.0@jar",
+          "name": "Extra Utilities 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3226408,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/extrautils2-1.12-1.9.9.jar",
+            "MD5": "1ea591619e6d5204bf077214868772ef"
+          }
+        },
+        {
+          "id": "erogenousbeef.bigreactors:bigreactors:1.12.2-0.4.5.67@jar",
+          "name": "Extreme Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1110113,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ExtremeReactors-1.12.2-0.4.5.67.jar",
+            "MD5": "92e5cc48aca43add940af096e7694141"
+          }
+        },
+        {
+          "id": "com.rwtema:funkylocomotion:1.1.2@jar",
+          "name": "Funky Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 265118,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/funky-locomotion-1.12.2-1.1.2.jar",
+            "MD5": "21b9d6b64788f9443719a734ff6be480"
+          }
+        },
+        {
+          "id": "icbm.classic:icbmclassic:1.12.2-4.0.1.75@jar",
+          "name": "ICBM-Classic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6698184,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ICBM-classic-1.12.2-4.0.1b75.jar",
+            "MD5": "6d365eedbc15dbd32da4efa121e47d83"
+          }
+        },
+        {
+          "id": "thelm.jaopca:jaopca:1.12.2-2.2.8.103@jar",
+          "name": "JAOPCA",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 457539,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/JAOPCA-1.12.2-2.2.8.103.jar",
+            "MD5": "d1405dc3bb9d465185ac637e09f0221b"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          }
+        },
+        {
+          "id": "logisticspipes:logisticspipes:0.10.3.40@jar",
+          "name": "Logistics Pipes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3546558,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/logisticspipes-0.10.3.40.jar",
+            "MD5": "00e4f9f17b3198deac9c74aa5f38cbae"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7863657,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Mekanism-1.12.2-9.8.3.390.jar",
+            "MD5": "e622b8365b9a1190b3b6cc042854e870"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 336364,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/MekanismGenerators-1.12.2-9.8.3.390.jar",
+            "MD5": "d75ddb11a6c1353b046c70d8904fe61e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159785,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/MekanismTools-1.12.2-9.8.3.390.jar",
+            "MD5": "0095f13a729ce5873319e36e29a5b5e1"
+          }
+        },
+        {
+          "id": "me.ichun.mods:morph:1.12.2-7.2.1@jar",
+          "name": "Morph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1061182,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Morph-1.12.2-7.2.1.jar",
+            "MD5": "15ae8dc0f0e92b4aea9e49e48380dc1d"
+          }
+        },
+        {
+          "id": "vazkii.morphtool:morphtool:1.2-21@jar",
+          "name": "Morph-o-Tool",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30619,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Morph-o-Tool-1.2-21.jar",
+            "MD5": "a56d6a54721acef7fa4863d4efd20638"
+          }
+        },
+        {
+          "id": "com.blakebr0:mysticalagriculture:1.7.3@jar",
+          "name": "Mystical Agriculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1536124,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/MysticalAgriculture-1.12.2-1.7.5.jar",
+            "MD5": "b7b81747d20baf1c5547ee302bad1420"
+          }
+        },
+        {
+          "id": "com.pam:pambrewcraft:1.0@jar",
+          "name": "Pam's BrewCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380875,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20BrewCraft%201.12.2-1.0.2.jar",
+            "MD5": "61687551afd63947fba597402df3a983"
+          }
+        },
+        {
+          "id": "com.pam:getalltheseeds:1.0@jar",
+          "name": "Pam's Get all the Seeds!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3138,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20Get%20all%20the%20Seeds!%201.12a.jar",
+            "MD5": "818ecebbdac8add19d023bfb58b69ac4"
+          }
+        },
+        {
+          "id": "com.pam:harvestcraft:1.12.2zg@jar",
+          "name": "Pam's HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4912890,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20HarvestCraft%201.12.2zg.jar",
+            "MD5": "e8e1ac67accdeea50116e1e92e592397"
+          }
+        },
+        {
+          "id": "com.mjr:planetprogression:1.12.2-0.4.5@jar",
+          "name": "Planet Progression",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605045,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/PlanetProgression-1.12.2-0.4.5.jar",
+            "MD5": "38bce661ef533792c01a7b06cf56c408"
+          }
+        },
+        {
+          "id": "sonar.logistics:practicallogistics2:1.12.2-3.0.8-11@jar",
+          "name": "Practical Logistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1600471,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/practicallogistics2-1.12.2-3.0.8-11.jar",
+            "MD5": "7d5b1739964fe805aa650544d660fa3f"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-core:4.9.4.120@jar",
+          "name": "ProjectRed Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2036136,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-Base.jar",
+            "MD5": "1380ad8d4ffbc3f1189078473f6f10f9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-compatibility:4.9.4.120@jar",
+          "name": "ProjectRed Compatibility",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67384,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-compat.jar",
+            "MD5": "56c34f44395c918926fc5751f82d70b9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-fabrication:4.9.4.120@jar",
+          "name": "ProjectRed Fabrication",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1894139,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-fabrication.jar",
+            "MD5": "eabf2010d23f3cfc583cd809a7b0febf"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-transmission:4.9.4.120@jar",
+          "name": "ProjectRed Transmission",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3923751,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-integration.jar",
+            "MD5": "0d8259b233ab89d2171b6337167e7e6f"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-illumination:4.9.4.120@jar",
+          "name": "ProjectRed Illumination",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 724477,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-lighting.jar",
+            "MD5": "b9ead4f7e70dd4c0f68cd8c690249753"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-expansion:4.9.4.120@jar",
+          "name": "ProjectRed Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2596509,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-mechanical.jar",
+            "MD5": "cafa40d180f86081e748d15ba5a0ffc9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-exploration:4.9.4.120@jar",
+          "name": "ProjectRed Exploration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 501169,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-world.jar",
+            "MD5": "2ac24154b87ff4fbc97e5330c2ca11f7"
+          }
+        },
+        {
+          "id": "treechopper.core:treechopper:1.2.4@jar",
+          "name": "Tree Chopper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 124729,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/TreeChopper-1.12.2-1.2.4.jar",
+            "MD5": "56dfb51a864cb3355f0f04cde27e44d6"
+          }
+        },
+        {
+          "id": "com.pam:weeeflowers:1.0@jar",
+          "name": "Pam's Weee! Flowers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 138971,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/forgemods/required/Weee!%20Flowers%201.12.2b.jar",
+            "MD5": "e225024087970450c5c858f9f12b540a"
+          }
+        },
+        {
+          "id": "ChickenASM-1.12-1.0.2.7.jar",
+          "name": "ChickenASM-1.12-1.0.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55622,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+            "MD5": "6afc6ad00fd6bacd0c5b35d8342f0f79",
+            "path": "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar"
+          }
+        },
+        {
+          "id": "AutoRegLib-1.3-32.jar",
+          "name": "AutoRegLib-1.3-32.jar",
+          "type": "File",
+          "artifact": {
+            "size": 108306,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/AutoRegLib-1.3-32.jar",
+            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad",
+            "path": "mods/AutoRegLib-1.3-32.jar"
+          }
+        },
+        {
+          "id": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 704330,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
+            "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+          }
+        },
+        {
+          "id": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+          "name": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+          "type": "File",
+          "artifact": {
+            "size": 90465,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+            "MD5": "e6dcc9b9784d52aa67f6e706eccb2cb2",
+            "path": "mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar"
+          }
+        },
+        {
+          "id": "Cucumber-1.12.2-1.1.3.jar",
+          "name": "Cucumber-1.12.2-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 126699,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/Cucumber-1.12.2-1.1.3.jar",
+            "MD5": "0018d8de31b05dc44c80a25d73fde15b",
+            "path": "mods/Cucumber-1.12.2-1.1.3.jar"
+          }
+        },
+        {
+          "id": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+          "name": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1304958,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+            "MD5": "e45e04bc38dc373aaef0415c2e2d441d",
+            "path": "mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar"
+          }
+        },
+        {
+          "id": "Forgelin-1.8.4.jar",
+          "name": "Forgelin-1.8.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6278399,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d",
+            "path": "mods/Forgelin-1.8.4.jar"
+          }
+        },
+        {
+          "id": "Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+          "name": "Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3987531,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+            "MD5": "84908698e7ea6b8d3a22e98f260cf3af",
+            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "GalacticraftCore-1.12.2-4.0.2.281.jar",
+          "name": "GalacticraftCore-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10631329,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.281.jar",
+            "MD5": "02dcb094b4de11028c196c44b0debe3b",
+            "path": "mods/GalacticraftCore-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "MCMultiPart-2.5.3.jar",
+          "name": "MCMultiPart-2.5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 173426,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/MCMultiPart-2.5.3.jar",
+            "MD5": "47987d111d6f1e48403bc3cbb23f5503",
+            "path": "mods/MCMultiPart-2.5.3.jar"
+          }
+        },
+        {
+          "id": "MJRLegendsLib-1.12.2-1.2.0.jar",
+          "name": "MJRLegendsLib-1.12.2-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 116770,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/MJRLegendsLib-1.12.2-1.2.0.jar",
+            "MD5": "13588768184aee81de43e81897c6dfd1",
+            "path": "mods/MJRLegendsLib-1.12.2-1.2.0.jar"
+          }
+        },
+        {
+          "id": "MicdoodleCore-1.12.2-4.0.2.281.jar",
+          "name": "MicdoodleCore-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 53300,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.281.jar",
+            "MD5": "db0d1e7966382663d3b0888e26a8ded1",
+            "path": "mods/MicdoodleCore-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+          "name": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 803400,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+            "MD5": "edff42a77c41f9191722b5b794e37668",
+            "path": "mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar"
+          }
+        },
+        {
+          "id": "OptiFine_1.12.2_HD_U_G5.jar",
+          "name": "OptiFine_1.12.2_HD_U_G5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2669107,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0",
+            "path": "mods/OptiFine_1.12.2_HD_U_G5.jar"
+          }
+        },
+        {
+          "id": "WrapUp-1.12-1.1.3.jar",
+          "name": "WrapUp-1.12-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25417,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/WrapUp-1.12-1.1.3.jar",
+            "MD5": "d6e426631f7d9eb1f86ef0523870811a",
+            "path": "mods/WrapUp-1.12-1.1.3.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-base-2.0.2.26.jar",
+          "name": "animania-1.12.2-base-2.0.2.26.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1619895,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-base-2.0.2.26.jar",
+            "MD5": "016e47807beaa33f7d410f27de91ad77",
+            "path": "mods/animania-1.12.2-base-2.0.2.26.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-extra-1.0.1.jar",
+          "name": "animania-1.12.2-extra-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1924546,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-extra-1.0.1.jar",
+            "MD5": "e3e3d504e5c528bf8e70188987f58801",
+            "path": "mods/animania-1.12.2-extra-1.0.1.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-farm-1.0.1.jar",
+          "name": "animania-1.12.2-farm-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5528848,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-farm-1.0.1.jar",
+            "MD5": "dec1cadb47a705cc407a16dafab47b98",
+            "path": "mods/animania-1.12.2-farm-1.0.1.jar"
+          }
+        },
+        {
+          "id": "iChunUtil-1.12.2-7.2.2.jar",
+          "name": "iChunUtil-1.12.2-7.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 581963,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/iChunUtil-1.12.2-7.2.2.jar",
+            "MD5": "bf13a2044ece544b449c7dc6f8aa40af",
+            "path": "mods/iChunUtil-1.12.2-7.2.2.jar"
+          }
+        },
+        {
+          "id": "mysticallib-1.12.2-1.9.0.jar",
+          "name": "mysticallib-1.12.2-1.9.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 431560,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/mysticallib-1.12.2-1.9.0.jar",
+            "MD5": "85db7612a09eebe1e6395ca2712f4138",
+            "path": "mods/mysticallib-1.12.2-1.9.0.jar"
+          }
+        },
+        {
+          "id": "sonarcore-1.12.2-5.0.19-20.jar",
+          "name": "sonarcore-1.12.2-5.0.19-20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1160618,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/sonarcore-1.12.2-5.0.19-20.jar",
+            "MD5": "02c6264bdfa66c5895aed1d739109420",
+            "path": "mods/sonarcore-1.12.2-5.0.19-20.jar"
+          }
+        },
+        {
+          "id": "zerocore-1.12.2-0.1.2.8.jar",
+          "name": "zerocore-1.12.2-0.1.2.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 228623,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/mods/zerocore-1.12.2-0.1.2.8.jar",
+            "MD5": "cc782f73e62792dcdb108449baec110f",
+            "path": "mods/zerocore-1.12.2-0.1.2.8.jar"
+          }
+        },
+        {
+          "id": "Chocapic13 V6 Lite.zip",
+          "name": "Chocapic13 V6 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 148075,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/shaderpacks/Chocapic13%20V6%20Lite.zip",
+            "MD5": "774206db2d590426746022da8386cb94",
+            "path": "shaderpacks/Chocapic13 V6 Lite.zip"
+          }
+        },
+        {
+          "id": "Chocapic13 V7 High.zip",
+          "name": "Chocapic13 V7 High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 817056,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/shaderpacks/Chocapic13%20V7%20High.zip",
+            "MD5": "4fc2a2f306a21e8e62db0a27c3722d64",
+            "path": "shaderpacks/Chocapic13 V7 High.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 High.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142960,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20High.zip",
+            "MD5": "573c51454c1f17fd2f92d046233fac8d",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 High.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142935,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Lite.zip",
+            "MD5": "72f6fb6310b14bde06c5e33c51169e3f",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142963,
+            "url": "http://studzy.net/mc/launcher/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Medium.zip",
+            "MD5": "30371722f8ef16d3503a087302d721a7",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Medium.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
