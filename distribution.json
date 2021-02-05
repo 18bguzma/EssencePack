@@ -285,6 +285,16 @@
           }
         },
         {
+          "id": "dan200.computercraft:computercraft:1.89.2@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1815047,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/cc-tweaked-1.12.2-1.89.2.jar",
+            "MD5": "cf075ec4f281ed5c510a96a91299927b"
+          }
+        },
+        {
           "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
           "name": "Chisel",
           "type": "ForgeMod",
@@ -530,6 +540,16 @@
           }
         },
         {
+          "id": "li.cil.oc:opencomputers:1.7.5.192@jar",
+          "name": "OpenComputers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15643758,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/OpenComputers-MC1.12.2-1.7.5.192.jar",
+            "MD5": "1da9dd8478ba6d682f2787746776e18a"
+          }
+        },
+        {
           "id": "com.pam:pambrewcraft:1.0@jar",
           "name": "Pam's BrewCraft",
           "type": "ForgeMod",
@@ -567,6 +587,16 @@
             "size": 605045,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/PlanetProgression-1.12.2-0.4.5.jar",
             "MD5": "38bce661ef533792c01a7b06cf56c408"
+          }
+        },
+        {
+          "id": "org.squiddev.plethora.core:plethora-core:1.2.3@jar",
+          "name": "Plethora Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1097627,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/plethora-1.12.2-1.2.3.jar",
+            "MD5": "78a16072602c903a32ca289678fa5409"
           }
         },
         {
@@ -657,6 +687,30 @@
             "size": 4023372,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/TConstruct-1.12.2-2.13.0.183.jar",
             "MD5": "710d64342d41042b7d6ced891448e727"
+          }
+        },
+        {
+          "id": "fi.dy.masa:tellme:0.7.0-dev.20200919.184303@jar",
+          "name": "Tell Me",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282258,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionaloff/tellme-1.12.2-0.7.0-dev.20200919.184303.jar",
+            "MD5": "31c5ca9a6056a12fdccd2c5479623df7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "tinkersoc:tinkersoc:0.4@jar",
+          "name": "Tinkers Construct OpenComputers Driver",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14676,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/tinkersoc-0.6.jar",
+            "MD5": "d8799f3787687da09e5816a511fd12d6"
           }
         },
         {
