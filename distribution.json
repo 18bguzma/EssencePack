@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "rss": "https://github.com/18bguzma/EssencePack/commits.atom",
+  "softWipe": true,
   "discord": {
     "clientId": "805250146614116352",
     "smallImageText": "EssenceSMP Main Server",
