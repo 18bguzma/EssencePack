@@ -1464,6 +1464,17 @@
           }
         },
         {
+          "id": "CreativeCore_v1.10.44_mc1.12.2.jar",
+          "name": "CreativeCore_v1.10.44_mc1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1193769,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/CreativeCore_v1.10.44_mc1.12.2.jar",
+            "MD5": "1ec6aa803ba0827eb97ed7160090b795",
+            "path": "mods/CreativeCore_v1.10.44_mc1.12.2.jar"
+          }
+        },
+        {
           "id": "Cucumber-1.12.2-1.1.3.jar",
           "name": "Cucumber-1.12.2-1.1.3.jar",
           "type": "File",
