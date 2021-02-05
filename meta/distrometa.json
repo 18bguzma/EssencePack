@@ -1,11 +1,11 @@
 {
   "$schema": "file:///C:/Users/guzma/OneDrive/Documents/Tough/dd/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://github.com/18bguzma/EssencePack/commits.atom",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "clientId": "805250146614116352",
+      "smallImageText": "EssenceSMP Main Server",
+      "smallImageKey": "sealcircle"
     }
   }
 }
