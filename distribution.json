@@ -11,7 +11,7 @@
       "id": "EssenceSMP-1.12.2",
       "name": "EssenceSMP (Minecraft 1.12.2)",
       "description": "EssenceSMP Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
-      "icon": null,
+      "icon": "http://studzy.net/mc/images/sealcircle.png",
       "version": "1.0.0",
       "address": "51.222.5.146:25565",
       "minecraftVersion": "1.12.2",
