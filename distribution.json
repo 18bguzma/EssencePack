@@ -1,0 +1,1781 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "EssenceSMP-1.12.2",
+      "name": "EssenceSMP (Minecraft 1.12.2)",
+      "description": "EssenceSMP Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "51.222.5.146:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "largeImageText": "EssenceSMP",
+        "largeImageKey": "sealcircle"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:1.0.14@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33683,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/AppleSkin-mc1.12-1.0.14.jar",
+            "MD5": "b435860d5cfa23bc53d3b8e120be91d4"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:rv6-stable-7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4062630,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/appliedenergistics2-rv6-stable-7.jar",
+            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28"
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:1.0.4@jar",
+          "name": "Attribute Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6796,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/AttributeFix-1.12.2-1.0.4.jar",
+            "MD5": "d1d921d9bb092ee3b5fd193abe95db32"
+          }
+        },
+        {
+          "id": "me.ichun.mods:backtools:1.12.2-7.0.1@jar",
+          "name": "BackTools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18879,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BackTools-1.12.2-7.0.1.jar",
+            "MD5": "a075276ecae1692fb7a9b09f6e5222a5"
+          }
+        },
+        {
+          "id": "silly511.backups:backups:1.5.6@jar",
+          "name": "Backups",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98577,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/Backups-1.12.2-1.5.6.jar",
+            "MD5": "9daf656cde5f52d7228f84e50bb90de8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.kreezcraft:badwithernocookiereloaded:1.12.2-3.4.18@jar",
+          "name": "Bad Wither No Cookie! Reloaded",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10402,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/badwithernocookiereloaded-1.12.2-3.4.18.jar",
+            "MD5": "04fe3b9759cb5435b0234fbbd32781d5"
+          }
+        },
+        {
+          "id": "baubles:baubles:1.12-1.5.2@jar",
+          "name": "Baubles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108450,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
+            "MD5": "944dec4ef3fbfd4d498d94a7047af201"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettercaves:1.12.2-2.0.4@jar",
+          "name": "YUNG's Better Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193604,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/bettercaves-1.12.2-2.0.4.jar",
+            "MD5": "ceb9c88ab5f8f3514a28ad7244b81757"
+          }
+        },
+        {
+          "id": "mods.betterfoliage:betterfoliage:2.3.1@jar",
+          "name": "Better Foliage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 937680,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.1.jar",
+            "MD5": "fe8b72e0045c06136ca64f736090ac7a"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.12.2-2.1.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 305014,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BetterMineshaftsForge-1.12.2-2.1.1.jar",
+            "MD5": "5c0f1472967e53652d552c5dd51d1d72"
+          }
+        },
+        {
+          "id": "jds.bibliocraft:bibliocraft:2.4.5@jar",
+          "name": "BiblioCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5122856,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BiblioCraft[v2.4.5][MC1.12.2].jar",
+            "MD5": "5b9f1a1543a1fdf687fe4761e3d63ed4"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4696621,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+            "MD5": "61fcc4ffff205ca261e61d6772debc4d"
+          }
+        },
+        {
+          "id": "epicsquid.blockcraftery:blockcraftery:1.2.0@jar",
+          "name": "Blockcraftery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105052,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/blockcraftery-1.12.2-1.3.1.jar",
+            "MD5": "03b28232d2a5f6c8d5e202c0f9fbb0b3"
+          }
+        },
+        {
+          "id": "lumien.bloodmoon:bloodmoon:1.5.3@jar",
+          "name": "Bloodmoon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47505,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Bloodmoon-MC1.12.2-1.5.3.jar",
+            "MD5": "6abdadb259cac735ff85fce91888b9ac"
+          }
+        },
+        {
+          "id": "com.chocohead.biab:Born in a Barn:1.12-1.1@jar",
+          "name": "Born In A Barn V1.8",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3642,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Born%20In%20A%20Barn%20V1.8-1.12-1.1.jar",
+            "MD5": "944a413889537655a8c1165d44e2647f"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:r1.10-363@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13814617,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Botania%20r1.10-363.jar",
+            "MD5": "5ba76d3db9345fa9e398523bddda59f3"
+          }
+        },
+        {
+          "id": "buildcraft.compat:buildcraftlib:7.99.24.7@jar",
+          "name": "BuildCraft Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4814664,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/buildcraft-all-7.99.24.7.jar",
+            "MD5": "43a54b9d7bb1ecf2819ba19718fb7abd"
+          }
+        },
+        {
+          "id": "de.maxhenkel:camera:1.0.10@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123890,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/camera-1.0.10.jar",
+            "MD5": "d146f0ff963d96b3baf442e4d1ca393f"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:1.12.3@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319099,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/carryon-1.12.2-1.12.3.15.jar",
+            "MD5": "f14a5132b1a3350ad54a675b8ce6bbcd"
+          }
+        },
+        {
+          "id": "dan200.computercraft:computercraft:1.89.2@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1815047,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/cc-tweaked-1.12.2-1.89.2.jar",
+            "MD5": "cf075ec4f281ed5c510a96a91299927b"
+          }
+        },
+        {
+          "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4755282,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
+            "MD5": "54afc298f94e708f0e1cdf399200b2cb"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+          "name": "Chisels & Bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737407,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/chiselsandbits-14.33.jar",
+            "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:6.5.0@jar",
+          "name": "Cooking for Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 595301,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/CookingForBlockheads_1.12.2-6.5.0.jar",
+            "MD5": "f1067937f350aba63a80089093b66724"
+          }
+        },
+        {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.3_1.12.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16747522,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Decocraft-2.6.3_1.12.2.jar",
+            "MD5": "f9a8eb5ac8e45f1438ef937dc48b882b"
+          }
+        },
+        {
+          "id": "doggytalents:doggytalents:1.15.1.6@jar",
+          "name": "Doggy Talents",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 801797,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DoggyTalents-1.12.2-1.15.1.6.jar",
+            "MD5": "1c6d3797984e4bf2b6f01c177a99c59b"
+          }
+        },
+        {
+          "id": "com.focamacho:dupefixproject:3.1.1@jar",
+          "name": "DupeFix Project",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 936631,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DupeFixProject-1.12.2-3.1.1.jar",
+            "MD5": "94ca094705773f24310e511856cbbb83"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:1.12.2-3.6.1.0@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15929762,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/DynamicSurroundings-1.12.2-3.6.1.0.jar",
+            "MD5": "1a0d50a34941865ff091a492e0612502"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.12.2-0.9.21@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 881294,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTrees-1.12.2-0.9.21.jar",
+            "MD5": "b282567e6a47406eab6b35e932bf33a5"
+          }
+        },
+        {
+          "id": "dynamictreesbop:dynamictreesbop:1.12.2-1.4.4@jar",
+          "name": "Dynamic Trees BOP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 407011,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTreesBOP-1.12.2-1.4.4.jar",
+            "MD5": "94010d5b23d8bc63d90ab7d2083f1b31"
+          }
+        },
+        {
+          "id": "maxhyper.dynamictreesextrautils2:dynamictreesextrautils2:1.12.2-1.0.2@jar",
+          "name": "Dynamic Trees for Extra Utilities 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 271107,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/dynamictreesExtraUtils2-1.12.2-1.0.2.jar",
+            "MD5": "33760c353f9fa10665f518786f2b6a1b"
+          }
+        },
+        {
+          "id": "maxhyper.dynamictreesic2:dynamictreesic2:1.12.2-1.2.1@jar",
+          "name": "Dynamic Trees for Industrial Craft 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134563,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTreesIC2-1.12.2-1.2.1.jar",
+            "MD5": "b5f7061fe0cbbc49de6b519064424c16"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictreesphc:1.12.2-2.0.5@jar",
+          "name": "Dynamic Trees PHC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2235722,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTreesPHC-1.12.2-2.0.5.jar",
+            "MD5": "97b760ab326ade811563ca6a5555f6f5"
+          }
+        },
+        {
+          "id": "maxhyper.dynamictreesquark:dynamictreesquark:1.12.2-1.0.6@jar",
+          "name": "Dynamic Trees for Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231126,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTreesQuark-1.12.2-1.0.6.jar",
+            "MD5": "23bbcf002e095ae3bbea018dd1e5fa5a"
+          }
+        },
+        {
+          "id": "maxhyper.dynamictreestconstruct:dynamictreestconstruct:1.12.2-1.2.6@jar",
+          "name": "Dynamic Trees for Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 195697,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/DynamicTreesTinkersConstruct-1.12.2-1.2.6.jar",
+            "MD5": "617a3963c344396a71913dec67b17b99"
+          }
+        },
+        {
+          "id": "codechicken.enderstorage:enderstorage:2.4.6.137@jar",
+          "name": "EnderStorage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223250,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+            "MD5": "c66000e24e8c11675db554c644b31bda"
+          }
+        },
+        {
+          "id": "com.mjr:extraplanets:1.12.2-0.7.1@jar",
+          "name": "Extra Planets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8660885,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ExtraPlanets-1.12.2-0.7.1.jar",
+            "MD5": "5f3973a024f8e53b8b60169c2a3ecfe4"
+          }
+        },
+        {
+          "id": "com.rwtema:extrautils2:1.0@jar",
+          "name": "Extra Utilities 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3226408,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/extrautils2-1.12-1.9.9.jar",
+            "MD5": "1ea591619e6d5204bf077214868772ef"
+          }
+        },
+        {
+          "id": "erogenousbeef.bigreactors:bigreactors:1.12.2-0.4.5.67@jar",
+          "name": "Extreme Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1110113,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ExtremeReactors-1.12.2-0.4.5.67.jar",
+            "MD5": "92e5cc48aca43add940af096e7694141"
+          }
+        },
+        {
+          "id": "com.pau101:fairylights:2.2.0@jar",
+          "name": "Fairy Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1161511,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/fairylights-2.2.0-1.12.2.jar",
+            "MD5": "e6bc3eec7d73c3b5f2f1d88aa8b0f933"
+          }
+        },
+        {
+          "id": "net.olafkeijsers:fastleafdecay:v14@jar",
+          "name": "FastLeafDecay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5200,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
+            "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+          }
+        },
+        {
+          "id": "io.alwa.featuredserver:featuredservers:1.12-1.0.6@jar",
+          "name": "Featured Servers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4919,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/FeaturedServers-1.12-1.0.6.jar",
+            "MD5": "4f3a2c847b38321d900c986f663f4068"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210423,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/foamfix-0.10.11-1.12.2.jar",
+            "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.rwtema:funkylocomotion:1.1.2@jar",
+          "name": "Funky Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 265118,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/funky-locomotion-1.12.2-1.1.2.jar",
+            "MD5": "21b9d6b64788f9443719a734ff6be480"
+          }
+        },
+        {
+          "id": "thedarkcolour.futuremc:futuremc:1.12.2-0.2.6@jar",
+          "name": "Future MC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14381704,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/future-mc-1.12.2-0.2.6.jar",
+            "MD5": "819ad0b447bdea16137946f1f937f9f6"
+          }
+        },
+        {
+          "id": "de.maxhenkel:gravestone:1.10.3@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129433,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/gravestone-1.10.3.jar",
+            "MD5": "44c8e473abb93250df0f51fc0b050041"
+          }
+        },
+        {
+          "id": "me.ichun.mods:hats:1.12.2-7.1.1@jar",
+          "name": "Hats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 993630,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Hats-1.12.2-7.1.1.jar",
+            "MD5": "0240341ea62df45ba76ab8c54d8d127c"
+          }
+        },
+        {
+          "id": "me.ichun.mods.hats.addons:hatstand:7.1.0@jar",
+          "name": "HatStand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34429,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/HatStand-1.12.2-7.1.0.jar",
+            "MD5": "a1882926e5abbffe2441c1c2d1867f1c"
+          }
+        },
+        {
+          "id": "com.matthewprenger:helpfixer:1.12.1-1.5.18@jar",
+          "name": "HelpFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6778,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/HelpFixer-1.12.1-1.5.18.jar",
+            "MD5": "52a1b001b58e67022b5465be12bc278f"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "icbm.classic:icbmclassic:1.12.2-4.0.1.75@jar",
+          "name": "ICBM-Classic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6698184,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ICBM-classic-1.12.2-4.0.1b75.jar",
+            "MD5": "6d365eedbc15dbd32da4efa121e47d83"
+          }
+        },
+        {
+          "id": "xyz.kaydax:ido:1.1.0@jar",
+          "name": "Ido - 1.12 movement enhancement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20516,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ido-1.12.2-1.1.0.jar",
+            "MD5": "103522249c0fe86372d6bfede026d35d"
+          }
+        },
+        {
+          "id": "ic2.core:ic2:2.8.170-ex112@jar",
+          "name": "IndustrialCraft 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8356436,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
+            "MD5": "d4f952c94cacdd280abbb73f072b2424"
+          }
+        },
+        {
+          "id": "com.buuz135.industrial:industrialforegoing:1.12.13@jar",
+          "name": "Industrial Foregoing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1603134,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/industrialforegoing-1.12.2-1.12.13-237.jar",
+            "MD5": "a9330399f14295d90e4ec3b5bb93f81f"
+          }
+        },
+        {
+          "id": "thelm.jaopca:jaopca:1.12.2-2.2.8.103@jar",
+          "name": "JAOPCA",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 457539,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/JAOPCA-1.12.2-2.2.8.103.jar",
+            "MD5": "d1405dc3bb9d465185ac637e09f0221b"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          }
+        },
+        {
+          "id": "com.snowshock35:jeiintegration:1.6.0@jar",
+          "name": "JEI Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25196,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/jeiintegration_1.12.2-1.6.0.jar",
+            "MD5": "591f2eef8dc65ebc6850bce0acd88f41"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.pearx:jehc:1.7.2@jar",
+          "name": "Just Enough HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45829,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/just-enough-harvestcraft-1.12.2-1.7.2.jar",
+            "MD5": "2844aaf4344791b86b7057416ce27c65"
+          }
+        },
+        {
+          "id": "p455w0rd.jee:jee:1.12.2-1.0.8@jar",
+          "name": "Just Enough Energistics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22714,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/JustEnoughEnergistics-1.12.2-1.0.8.jar",
+            "MD5": "be626dce632db45ab61512e5a6d9cdd7"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:0.9.2@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 222270,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/JustEnoughResources-1.12.2-0.9.2.60.jar",
+            "MD5": "87a4666549a60d8fb423883dd4ee6232"
+          }
+        },
+        {
+          "id": "logisticspipes:logisticspipes:0.10.3.40@jar",
+          "name": "Logistics Pipes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3546558,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/logisticspipes-0.10.3.40.jar",
+            "MD5": "00e4f9f17b3198deac9c74aa5f38cbae"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7863657,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Mekanism-1.12.2-9.8.3.390.jar",
+            "MD5": "e622b8365b9a1190b3b6cc042854e870"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 336364,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/MekanismGenerators-1.12.2-9.8.3.390.jar",
+            "MD5": "d75ddb11a6c1353b046c70d8904fe61e"
+          }
+        },
+        {
+          "id": "mekanism.tools:mekanismtools:1.12.2-9.8.3.390@jar",
+          "name": "Mekanism: Tools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159785,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/MekanismTools-1.12.2-9.8.3.390.jar",
+            "MD5": "0095f13a729ce5873319e36e29a5b5e1"
+          }
+        },
+        {
+          "id": "me.ichun.mods:morph:1.12.2-7.2.1@jar",
+          "name": "Morph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1061182,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Morph-1.12.2-7.2.1.jar",
+            "MD5": "15ae8dc0f0e92b4aea9e49e48380dc1d"
+          }
+        },
+        {
+          "id": "vazkii.morphtool:morphtool:1.2-21@jar",
+          "name": "Morph-o-Tool",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30619,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Morph-o-Tool-1.2-21.jar",
+            "MD5": "a56d6a54721acef7fa4863d4efd20638"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.10@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75170,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/MouseTweaks-2.10-mc1.12.2.jar",
+            "MD5": "e4dcbf47c3f99a780681e3a3a9fcf9e9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.5.8@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5185246,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/mowziesmobs-1.5.8.jar",
+            "MD5": "de6541439f9a436963b020f20164cbfa"
+          }
+        },
+        {
+          "id": "com.blakebr0:mysticalagriculture:1.7.3@jar",
+          "name": "Mystical Agriculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1536124,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/MysticalAgriculture-1.12.2-1.7.5.jar",
+            "MD5": "b7b81747d20baf1c5547ee302bad1420"
+          }
+        },
+        {
+          "id": "li.cil.oc:opencomputers:1.7.5.192@jar",
+          "name": "OpenComputers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15643758,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/OpenComputers-MC1.12.2-1.7.5.192.jar",
+            "MD5": "1da9dd8478ba6d682f2787746776e18a"
+          }
+        },
+        {
+          "id": "atm.bloodworkxgaming:packcrashinfo:1.0.1@jar",
+          "name": "PackCrashInfo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6611,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/packcrashinfo-1.0.1.jar",
+            "MD5": "37692b6f708b6ac24e384b95541ef827"
+          }
+        },
+        {
+          "id": "com.pam:pambrewcraft:1.0@jar",
+          "name": "Pam's BrewCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380875,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20BrewCraft%201.12.2-1.0.2.jar",
+            "MD5": "61687551afd63947fba597402df3a983"
+          }
+        },
+        {
+          "id": "com.pam:getalltheseeds:1.0@jar",
+          "name": "Pam's Get all the Seeds!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3138,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20Get%20all%20the%20Seeds!%201.12a.jar",
+            "MD5": "818ecebbdac8add19d023bfb58b69ac4"
+          }
+        },
+        {
+          "id": "com.pam:harvestcraft:1.12.2zg@jar",
+          "name": "Pam's HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4912890,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Pam%27s%20HarvestCraft%201.12.2zg.jar",
+            "MD5": "e8e1ac67accdeea50116e1e92e592397"
+          }
+        },
+        {
+          "id": "com.mjr:planetprogression:1.12.2-0.4.5@jar",
+          "name": "Planet Progression",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605045,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/PlanetProgression-1.12.2-0.4.5.jar",
+            "MD5": "38bce661ef533792c01a7b06cf56c408"
+          }
+        },
+        {
+          "id": "org.squiddev.plethora.core:plethora-core:1.2.3@jar",
+          "name": "Plethora Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1097627,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/plethora-1.12.2-1.2.3.jar",
+            "MD5": "78a16072602c903a32ca289678fa5409"
+          }
+        },
+        {
+          "id": "sonar.logistics:practicallogistics2:1.12.2-3.0.8-11@jar",
+          "name": "Practical Logistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1600471,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/practicallogistics2-1.12.2-3.0.8-11.jar",
+            "MD5": "7d5b1739964fe805aa650544d660fa3f"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-core:4.9.4.120@jar",
+          "name": "ProjectRed Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2036136,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-Base.jar",
+            "MD5": "1380ad8d4ffbc3f1189078473f6f10f9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-compatibility:4.9.4.120@jar",
+          "name": "ProjectRed Compatibility",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67384,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-compat.jar",
+            "MD5": "56c34f44395c918926fc5751f82d70b9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-fabrication:4.9.4.120@jar",
+          "name": "ProjectRed Fabrication",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1894139,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-fabrication.jar",
+            "MD5": "eabf2010d23f3cfc583cd809a7b0febf"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-transmission:4.9.4.120@jar",
+          "name": "ProjectRed Transmission",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3923751,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-integration.jar",
+            "MD5": "0d8259b233ab89d2171b6337167e7e6f"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-illumination:4.9.4.120@jar",
+          "name": "ProjectRed Illumination",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 724477,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-lighting.jar",
+            "MD5": "b9ead4f7e70dd4c0f68cd8c690249753"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-expansion:4.9.4.120@jar",
+          "name": "ProjectRed Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2596509,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-mechanical.jar",
+            "MD5": "cafa40d180f86081e748d15ba5a0ffc9"
+          }
+        },
+        {
+          "id": "mrtjp.projectred:projectred-exploration:4.9.4.120@jar",
+          "name": "ProjectRed Exploration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 501169,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectRed-1.12.2-4.9.4.120-world.jar",
+            "MD5": "2ac24154b87ff4fbc97e5330c2ca11f7"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r1.6-179@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3877577,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Quark-r1.6-179.jar",
+            "MD5": "dfcfa70d244f0435a5ff2b28037a324b"
+          }
+        },
+        {
+          "id": "com.therandomlabs.randompatches.core:randompatches:1.12.2-1.22.1.10@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293231,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/randompatches-1.12.2-1.22.1.10.jar",
+            "MD5": "dfbb30ff396e6426ba9a284b04c7bcf3"
+          }
+        },
+        {
+          "id": "ivorius.reccomplex:reccomplex:1.4.8.2@jar",
+          "name": "Recurrent Complex",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7076645,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/RecurrentComplex-1.4.8.2.jar",
+            "MD5": "821b38ba97b03eb79d64db797db67dac"
+          }
+        },
+        {
+          "id": "greymerk.roguelike:roguelike:1.12.2-1.8.0@jar",
+          "name": "Roguelike Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 701215,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/RoguelikeDungeons-1.12.2-1.8.0.jar",
+            "MD5": "e6f7604a6ec95d0af6eee2f2f3ecef85"
+          }
+        },
+        {
+          "id": "rtg:rtg:6.1.0.0-snapshot.1@jar",
+          "name": "Realistic Terrain Generation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2075023,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/RTG-1.12.2-6.1.0.0-snapshot.1.jar",
+            "MD5": "08de37000d2c97ffc9c6da61f3cd6aaa"
+          }
+        },
+        {
+          "id": "com.github.lunatrius:schematica:1.8.0.169@jar",
+          "name": "Schematica",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 336150,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionalon/Schematica-1.12.2-1.8.0.169-universal.jar",
+            "MD5": "c779a8cd4fd0e99572385a529b790c73"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.gmail.rohzek.dive.main:simpledivegear:1.1.1@jar",
+          "name": "Simple Dive Gear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63025,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/SimpleDivingGear-1.1.1+mc+1.12.2.jar",
+            "MD5": "5f05e7c89843d5e3d1ff82450ca8249e"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:1.12.2-5.4.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605947,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/StorageDrawers-1.12.2-5.4.2.jar",
+            "MD5": "0f658c7cba3e6793abbcb934b4810902"
+          }
+        },
+        {
+          "id": "com.kreezcraft.subterraneanwaters:subterraneanwaters:1.12.2-1.7.9@jar",
+          "name": "Subterranean Waters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10734,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/subterraneanwaters-1.12.2-1.7.9.jar",
+            "MD5": "b93401295d593a1ca0b7f253a6ca7539"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:1.12.2-2.13.0.183@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4023372,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/TConstruct-1.12.2-2.13.0.183.jar",
+            "MD5": "710d64342d41042b7d6ced891448e727"
+          }
+        },
+        {
+          "id": "net.tangotek:tektopia:1.0.0@jar",
+          "name": "TekTopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13648391,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/tektopia-1.1.0.jar",
+            "MD5": "e04729b0a21acfb95b28c3700a09ed9b"
+          }
+        },
+        {
+          "id": "tallestegg.tektopiaimproved:tthcc:1.3@jar",
+          "name": "Tektopia HarvestCraft Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25405,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Tektopia-Harvestcraft-Compat-1.3.jar",
+            "MD5": "952ef60e1337744dcf57b0518cd7dd9b"
+          }
+        },
+        {
+          "id": "bletch.tektopiainformation:tektopiainformation:1.4.0@jar",
+          "name": "TektopiaInformation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1122936,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/TektopiaInformation-1.12.2-1.1.0-1.4.0.jar",
+            "MD5": "6ddf08dc8e371e31ce8f147ffcde3771"
+          }
+        },
+        {
+          "id": "fi.dy.masa:tellme:0.7.0-dev.20200919.184303@jar",
+          "name": "Tell Me",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282258,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionaloff/tellme-1.12.2-0.7.0-dev.20200919.184303.jar",
+            "MD5": "31c5ca9a6056a12fdccd2c5479623df7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.possibletriangle:tinkersjei:1.2@jar",
+          "name": "Tinker's JEI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12255,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/tinkersjei-1.2.jar",
+            "MD5": "b2b7946fdd352745f75a9676f0df51a3"
+          }
+        },
+        {
+          "id": "tinkersoc:tinkersoc:0.4@jar",
+          "name": "Tinkers Construct OpenComputers Driver",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14676,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/tinkersoc-0.6.jar",
+            "MD5": "d8799f3787687da09e5816a511fd12d6"
+          }
+        },
+        {
+          "id": "com.unnoen:unloader:1.2.0@jar",
+          "name": "Unloader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6396,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/unloader-1.2.0.jar",
+            "MD5": "c13b3a2c4ed9537e4f64f7c9bbde64f3"
+          }
+        },
+        {
+          "id": "org.dimdev:vanillafix:1.0.10-150@jar",
+          "name": "VanillaFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1025896,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/VanillaFix-1.0.10-150.jar",
+            "MD5": "a74aaab68100e03f54e35d1007d50169"
+          }
+        },
+        {
+          "id": "genandnic.walljump:walljump:1.12.2-1.3.2@jar",
+          "name": "Wall-Jump!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83768,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/walljump-1.12.2-1.3.2.jar",
+            "MD5": "845bdff742f44f42021458ea2897291e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:4.1.0@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178994,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Waystones_1.12.2-4.1.0.jar",
+            "MD5": "5159122949ffb79b80a341135673e8f8"
+          }
+        },
+        {
+          "id": "com.pam:weeeflowers:1.0@jar",
+          "name": "Pam's Weee! Flowers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 138971,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/Weee!%20Flowers%201.12.2b.jar",
+            "MD5": "e225024087970450c5c858f9f12b540a"
+          }
+        },
+        {
+          "id": "codechicken.wirelessredstone:wrcbe:2.3.2.33@jar",
+          "name": "WirelessRedstone-CBE",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 364036,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/WR-CBE-1.12.2-2.3.2.33-universal.jar",
+            "MD5": "2305b3f0d60cd55510c4dd08abdb3656"
+          }
+        },
+        {
+          "id": "featuredservers.json",
+          "name": "featuredservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 87,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/config/FeaturedServers/featuredservers.json",
+            "MD5": "28aecca7c9bfa5429e8d5258c55c4167",
+            "path": "config/FeaturedServers/featuredservers.json"
+          }
+        },
+        {
+          "id": "dsurround.cfg",
+          "name": "dsurround.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 15676,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/config/dsurround/dsurround.cfg",
+            "MD5": "91a37582df65a6d175e5e46672d915bf",
+            "path": "config/dsurround/dsurround.cfg"
+          }
+        },
+        {
+          "id": "ChickenASM-1.12-1.0.2.7.jar",
+          "name": "ChickenASM-1.12-1.0.2.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55622,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar",
+            "MD5": "6afc6ad00fd6bacd0c5b35d8342f0f79",
+            "path": "mods/1.12.2/ChickenASM-1.12-1.0.2.7.jar"
+          }
+        },
+        {
+          "id": "CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+          "name": "CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+          "type": "File",
+          "artifact": {
+            "size": 88557,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/1.12.2/CraftStudio-1.0.0.93-mc1.12-alpha.jar",
+            "MD5": "eb23a10c2d246cf65affeb59116c881e",
+            "path": "mods/1.12.2/CraftStudio-1.0.0.93-mc1.12-alpha.jar"
+          }
+        },
+        {
+          "id": "AutoRegLib-1.3-32.jar",
+          "name": "AutoRegLib-1.3-32.jar",
+          "type": "File",
+          "artifact": {
+            "size": 108306,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/AutoRegLib-1.3-32.jar",
+            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad",
+            "path": "mods/AutoRegLib-1.3-32.jar"
+          }
+        },
+        {
+          "id": "CTM-MC1.12.2-1.0.2.31.jar",
+          "name": "CTM-MC1.12.2-1.0.2.31.jar",
+          "type": "File",
+          "artifact": {
+            "size": 199045,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864",
+            "path": "mods/CTM-MC1.12.2-1.0.2.31.jar"
+          }
+        },
+        {
+          "id": "Chameleon-1.12-4.1.3.jar",
+          "name": "Chameleon-1.12-4.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 96859,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/Chameleon-1.12-4.1.3.jar",
+            "MD5": "e42efa8f4fd42d2918128a826b740e98",
+            "path": "mods/Chameleon-1.12-4.1.3.jar"
+          }
+        },
+        {
+          "id": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 704330,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
+            "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+          }
+        },
+        {
+          "id": "Cucumber-1.12.2-1.1.3.jar",
+          "name": "Cucumber-1.12.2-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 126699,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/Cucumber-1.12.2-1.1.3.jar",
+            "MD5": "0018d8de31b05dc44c80a25d73fde15b",
+            "path": "mods/Cucumber-1.12.2-1.1.3.jar"
+          }
+        },
+        {
+          "id": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+          "name": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1304958,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
+            "MD5": "e45e04bc38dc373aaef0415c2e2d441d",
+            "path": "mods/ForgeMultipart-1.12.2-2.6.2.83-universal.jar"
+          }
+        },
+        {
+          "id": "Forgelin-1.8.4.jar",
+          "name": "Forgelin-1.8.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d",
+            "path": "mods/Forgelin-1.8.4.jar"
+          }
+        },
+        {
+          "id": "Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+          "name": "Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3987531,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar",
+            "MD5": "84908698e7ea6b8d3a22e98f260cf3af",
+            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "GalacticraftCore-1.12.2-4.0.2.281.jar",
+          "name": "GalacticraftCore-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10631329,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.281.jar",
+            "MD5": "02dcb094b4de11028c196c44b0debe3b",
+            "path": "mods/GalacticraftCore-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "IvToolkit-1.3.3-1.12.jar",
+          "name": "IvToolkit-1.3.3-1.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 455763,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/IvToolkit-1.3.3-1.12.jar",
+            "MD5": "f1a23cb6eaa682240c0ecdab65e7857f",
+            "path": "mods/IvToolkit-1.3.3-1.12.jar"
+          }
+        },
+        {
+          "id": "LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+          "name": "LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76753,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+            "MD5": "0dae43ef5376822db0399ad254207aa3",
+            "path": "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
+          }
+        },
+        {
+          "id": "MCMultiPart-2.5.3.jar",
+          "name": "MCMultiPart-2.5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 173426,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/MCMultiPart-2.5.3.jar",
+            "MD5": "47987d111d6f1e48403bc3cbb23f5503",
+            "path": "mods/MCMultiPart-2.5.3.jar"
+          }
+        },
+        {
+          "id": "MJRLegendsLib-1.12.2-1.2.0.jar",
+          "name": "MJRLegendsLib-1.12.2-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 116770,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/MJRLegendsLib-1.12.2-1.2.0.jar",
+            "MD5": "13588768184aee81de43e81897c6dfd1",
+            "path": "mods/MJRLegendsLib-1.12.2-1.2.0.jar"
+          }
+        },
+        {
+          "id": "Mantle-1.12-1.3.3.55.jar",
+          "name": "Mantle-1.12-1.3.3.55.jar",
+          "type": "File",
+          "artifact": {
+            "size": 843486,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/Mantle-1.12-1.3.3.55.jar",
+            "MD5": "1026f5f8d3c4997831decd9023ca65a6",
+            "path": "mods/Mantle-1.12-1.3.3.55.jar"
+          }
+        },
+        {
+          "id": "MicdoodleCore-1.12.2-4.0.2.281.jar",
+          "name": "MicdoodleCore-1.12.2-4.0.2.281.jar",
+          "type": "File",
+          "artifact": {
+            "size": 53300,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.281.jar",
+            "MD5": "db0d1e7966382663d3b0888e26a8ded1",
+            "path": "mods/MicdoodleCore-1.12.2-4.0.2.281.jar"
+          }
+        },
+        {
+          "id": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+          "name": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 803400,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+            "MD5": "edff42a77c41f9191722b5b794e37668",
+            "path": "mods/MrTJPCore-1.12.2-2.1.4.43-universal.jar"
+          }
+        },
+        {
+          "id": "OptiFine_1.12.2_HD_U_G5.jar",
+          "name": "OptiFine_1.12.2_HD_U_G5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0",
+            "path": "mods/OptiFine_1.12.2_HD_U_G5.jar"
+          }
+        },
+        {
+          "id": "OreLib-1.12.2-3.6.0.1.jar",
+          "name": "OreLib-1.12.2-3.6.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 341728,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a",
+            "path": "mods/OreLib-1.12.2-3.6.0.1.jar"
+          }
+        },
+        {
+          "id": "PTRLib-1.0.4.jar",
+          "name": "PTRLib-1.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 169483,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/PTRLib-1.0.4.jar",
+            "MD5": "7cdde85216395abe430a7ff185650370",
+            "path": "mods/PTRLib-1.0.4.jar"
+          }
+        },
+        {
+          "id": "WrapUp-1.12-1.1.3.jar",
+          "name": "WrapUp-1.12-1.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25417,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/WrapUp-1.12-1.1.3.jar",
+            "MD5": "d6e426631f7d9eb1f86ef0523870811a",
+            "path": "mods/WrapUp-1.12-1.1.3.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-base-2.0.2.26.jar",
+          "name": "animania-1.12.2-base-2.0.2.26.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1619895,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-base-2.0.2.26.jar",
+            "MD5": "016e47807beaa33f7d410f27de91ad77",
+            "path": "mods/animania-1.12.2-base-2.0.2.26.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-extra-1.0.1.jar",
+          "name": "animania-1.12.2-extra-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1924546,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-extra-1.0.1.jar",
+            "MD5": "e3e3d504e5c528bf8e70188987f58801",
+            "path": "mods/animania-1.12.2-extra-1.0.1.jar"
+          }
+        },
+        {
+          "id": "animania-1.12.2-farm-1.0.1.jar",
+          "name": "animania-1.12.2-farm-1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5528848,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/animania-1.12.2-farm-1.0.1.jar",
+            "MD5": "dec1cadb47a705cc407a16dafab47b98",
+            "path": "mods/animania-1.12.2-farm-1.0.1.jar"
+          }
+        },
+        {
+          "id": "conarm-1.12.2-1.2.5.10.jar",
+          "name": "conarm-1.12.2-1.2.5.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 894824,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/conarm-1.12.2-1.2.5.10.jar",
+            "MD5": "b5bf1c931ac479b7678bea8b8624ac9f",
+            "path": "mods/conarm-1.12.2-1.2.5.10.jar"
+          }
+        },
+        {
+          "id": "iChunUtil-1.12.2-7.2.2.jar",
+          "name": "iChunUtil-1.12.2-7.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 581963,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/iChunUtil-1.12.2-7.2.2.jar",
+            "MD5": "bf13a2044ece544b449c7dc6f8aa40af",
+            "path": "mods/iChunUtil-1.12.2-7.2.2.jar"
+          }
+        },
+        {
+          "id": "llibrary-1.7.20-1.12.2.jar",
+          "name": "llibrary-1.7.20-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 884550,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/llibrary-1.7.20-1.12.2.jar",
+            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d",
+            "path": "mods/llibrary-1.7.20-1.12.2.jar"
+          }
+        },
+        {
+          "id": "mysticallib-1.12.2-1.9.0.jar",
+          "name": "mysticallib-1.12.2-1.9.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 431560,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/mysticallib-1.12.2-1.9.0.jar",
+            "MD5": "85db7612a09eebe1e6395ca2712f4138",
+            "path": "mods/mysticallib-1.12.2-1.9.0.jar"
+          }
+        },
+        {
+          "id": "sonarcore-1.12.2-5.0.19-20.jar",
+          "name": "sonarcore-1.12.2-5.0.19-20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1160618,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/sonarcore-1.12.2-5.0.19-20.jar",
+            "MD5": "02c6264bdfa66c5895aed1d739109420",
+            "path": "mods/sonarcore-1.12.2-5.0.19-20.jar"
+          }
+        },
+        {
+          "id": "stg-1.12.2-1.2.2.jar",
+          "name": "stg-1.12.2-1.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24016,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/stg-1.12.2-1.2.2.jar",
+            "MD5": "fd4827f446b3e6f58d96da0fabcbe0ad",
+            "path": "mods/stg-1.12.2-1.2.2.jar"
+          }
+        },
+        {
+          "id": "tesla-core-lib-1.12.2-1.0.17.jar",
+          "name": "tesla-core-lib-1.12.2-1.0.17.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1138988,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/tesla-core-lib-1.12.2-1.0.17.jar",
+            "MD5": "6c76ff8a9251852d00d9a648e72ad25c",
+            "path": "mods/tesla-core-lib-1.12.2-1.0.17.jar"
+          }
+        },
+        {
+          "id": "zerocore-1.12.2-0.1.2.8.jar",
+          "name": "zerocore-1.12.2-0.1.2.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 228623,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/mods/zerocore-1.12.2-0.1.2.8.jar",
+            "MD5": "cc782f73e62792dcdb108449baec110f",
+            "path": "mods/zerocore-1.12.2-0.1.2.8.jar"
+          }
+        },
+        {
+          "id": "Chocapic13 V6 Lite.zip",
+          "name": "Chocapic13 V6 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 148075,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/shaderpacks/Chocapic13%20V6%20Lite.zip",
+            "MD5": "774206db2d590426746022da8386cb94",
+            "path": "shaderpacks/Chocapic13 V6 Lite.zip"
+          }
+        },
+        {
+          "id": "Chocapic13 V7 High.zip",
+          "name": "Chocapic13 V7 High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 817056,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/shaderpacks/Chocapic13%20V7%20High.zip",
+            "MD5": "4fc2a2f306a21e8e62db0a27c3722d64",
+            "path": "shaderpacks/Chocapic13 V7 High.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 High.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142960,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20High.zip",
+            "MD5": "573c51454c1f17fd2f92d046233fac8d",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 High.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142935,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Lite.zip",
+            "MD5": "72f6fb6310b14bde06c5e33c51169e3f",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142963,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Medium.zip",
+            "MD5": "30371722f8ef16d3503a087302d721a7",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Medium.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
