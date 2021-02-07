@@ -1070,6 +1070,16 @@
           }
         },
         {
+          "id": "moze_intel.projecte:projecte:1.12.2-PE1.4.1@jar",
+          "name": "ProjectE",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1812973,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/ProjectE-1.12.2-PE1.4.1.jar",
+            "MD5": "4601ba2741f192bcd01d132aa3e219b5"
+          }
+        },
+        {
           "id": "mrtjp.projectred:projectred-core:4.9.4.120@jar",
           "name": "ProjectRed Core",
           "type": "ForgeMod",
