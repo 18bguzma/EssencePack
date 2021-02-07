@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "softWipe": "true",
+  "softWipe": "false",
   "rss": "https://github.com/18bguzma/EssencePack/commits.atom",
   "discord": {
     "clientId": "805250146614116352",
