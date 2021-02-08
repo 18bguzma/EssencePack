@@ -324,8 +324,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 937680,
-            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/BetterFoliage-MC1.12-2.3.1.jar",
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionaloff/BetterFoliage-MC1.12-2.3.1.jar",
             "MD5": "fe8b72e0045c06136ca64f736090ac7a"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
