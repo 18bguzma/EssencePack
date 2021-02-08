@@ -1406,9 +1406,9 @@
           "name": "dsurround.cfg",
           "type": "File",
           "artifact": {
-            "size": 15676,
+            "size": 15677,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/config/dsurround/dsurround.cfg",
-            "MD5": "91a37582df65a6d175e5e46672d915bf",
+            "MD5": "5600f680d0a6eebeb368d01f45dc8a61",
             "path": "config/dsurround/dsurround.cfg"
           }
         },
