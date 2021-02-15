@@ -463,6 +463,16 @@
           }
         },
         {
+          "id": "org.cyclops:commoncapabilities:1.12.2-2.4.8@jar",
+          "name": "CommonCapabilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 361018,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/CommonCapabilities-1.12.2-2.4.8.jar",
+            "MD5": "bdd2457d21b0007d44b04a4cc5acd3ef"
+          }
+        },
+        {
           "id": "net.blay09.mods:cookingforblockheads:6.5.0@jar",
           "name": "Cooking for Blockheads",
           "type": "ForgeMod",
@@ -483,6 +493,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "org.cyclops:cyclopscore:1.12.2-1.6.7@jar",
+          "name": "Cyclops Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1060985,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/CyclopsCore-1.12.2-1.6.7.jar",
+            "MD5": "dc635fec13b1245323a58799fa6e6b39"
           }
         },
         {
@@ -672,6 +692,16 @@
           }
         },
         {
+          "id": "sonar.fluxnetworks:fluxnetworks:4.1.1.34@jar",
+          "name": "Flux Networks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 475994,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/FluxNetworks-1.12.2-4.1.1.34.jar",
+            "MD5": "dc5f666ad856dd1da2b195f03a815bb3"
+          }
+        },
+        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -692,6 +722,16 @@
             "size": 265118,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/funky-locomotion-1.12.2-1.1.2.jar",
             "MD5": "21b9d6b64788f9443719a734ff6be480"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.1@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2435626,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/furniture-6.3.1-1.12.2.jar",
+            "MD5": "7e4f4d160032658e095eff8221977800"
           }
         },
         {
@@ -795,6 +835,46 @@
             "size": 1603134,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/industrialforegoing-1.12.2-1.12.13-237.jar",
             "MD5": "a9330399f14295d90e4ec3b5bb93f81f"
+          }
+        },
+        {
+          "id": "org.cyclops:integratedcrafting:1.12.2-1.0.10@jar",
+          "name": "Integrated Crafting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 311994,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/IntegratedCrafting-1.12.2-1.0.10.jar",
+            "MD5": "f9be6c26b644c4d338997422faaa0e9a"
+          }
+        },
+        {
+          "id": "org.cyclops:integrateddynamics:1.12.2-1.1.11@jar",
+          "name": "Integrated Dynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3049509,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/IntegratedDynamics-1.12.2-1.1.11.jar",
+            "MD5": "f96333cf15335deef0d53412b52cc006"
+          }
+        },
+        {
+          "id": "org.cyclops:integratedterminals:1.12.2-1.0.14@jar",
+          "name": "Integrated Terminals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 572871,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/IntegratedTerminals-1.12.2-1.0.14.jar",
+            "MD5": "37695b7572ab26b3eb0d8a2298df9550"
+          }
+        },
+        {
+          "id": "org.cyclops:integratedtunnels:1.12.2-1.6.14@jar",
+          "name": "Integrated Tunnels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493503,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/IntegratedTunnels-1.12.2-1.6.14.jar",
+            "MD5": "27db1b2ca9dc091675a744d2fe6edc02"
           }
         },
         {
@@ -974,6 +1054,16 @@
           }
         },
         {
+          "id": "com.blakebr0:mysticalagradditions:1.3.2@jar",
+          "name": "Mystical Agradditions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134055,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/MysticalAgradditions-1.12.2-1.3.2.jar",
+            "MD5": "ead0f02e214ab12b4f7b86c79fc23ffa"
+          }
+        },
+        {
           "id": "com.blakebr0:mysticalagriculture:1.7.3@jar",
           "name": "Mystical Agriculture",
           "type": "ForgeMod",
@@ -981,6 +1071,16 @@
             "size": 1536124,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/MysticalAgriculture-1.12.2-1.7.5.jar",
             "MD5": "b7b81747d20baf1c5547ee302bad1420"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.12.2-1.8.5@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196434,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/NaturesCompass-1.12.2-1.8.5.jar",
+            "MD5": "3dbb990c72a185c9b9aeca7f3094eb21"
           }
         },
         {
@@ -1181,6 +1281,26 @@
             "size": 7076645,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/RecurrentComplex-1.4.8.2.jar",
             "MD5": "821b38ba97b03eb79d64db797db67dac"
+          }
+        },
+        {
+          "id": "com.raoulvdberge:refinedstorage:1.6.16@jar",
+          "name": "Refined Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1912377,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/refinedstorage-1.6.16.jar",
+            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2"
+          }
+        },
+        {
+          "id": "com.raoulvdberge:refinedstorageaddons:0.4.5@jar",
+          "name": "Refined Storage Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26804,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/refinedstorageaddons-0.4.5.jar",
+            "MD5": "d840373cb0ce3752e92c3840f64d8d90"
           }
         },
         {
