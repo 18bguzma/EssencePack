@@ -1501,6 +1501,20 @@
           }
         },
         {
+          "id": "com.sk89q:worldedit:6.1.10-SNAPSHOT;e6b38e8@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1479535,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/optionaloff/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
+            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "codechicken.wirelessredstone:wrcbe:2.3.2.33@jar",
           "name": "WirelessRedstone-CBE",
           "type": "ForgeMod",
