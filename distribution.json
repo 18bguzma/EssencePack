@@ -1084,6 +1084,16 @@
           }
         },
         {
+          "id": "assets.recipehandler:recipehandler:0.13@jar",
+          "name": "NoMoreRecipeConflict",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50084,
+            "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/forgemods/required/NoMoreRecipeConflict-0.13(1.12.2).jar",
+            "MD5": "95ca245f9c463dfa7467575e37d6cb2e"
+          }
+        },
+        {
           "id": "li.cil.oc:opencomputers:1.7.5.192@jar",
           "name": "OpenComputers",
           "type": "ForgeMod",
@@ -1539,9 +1549,9 @@
           "name": "featuredservers.json",
           "type": "File",
           "artifact": {
-            "size": 87,
+            "size": 92,
             "url": "https://raw.githubusercontent.com/18bguzma/EssencePack/master/servers/EssenceSMP-1.12.2/files/config/FeaturedServers/featuredservers.json",
-            "MD5": "28aecca7c9bfa5429e8d5258c55c4167",
+            "MD5": "fc55efa0a6470e7156cb1b39c8b0aa6c",
             "path": "config/FeaturedServers/featuredservers.json"
           }
         },
